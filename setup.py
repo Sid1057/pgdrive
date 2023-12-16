@@ -37,7 +37,7 @@ for ele in ext_modules:
 
 install_requires = [
     "gym",
-    "numpy<=1.19.3",
+    "numpy<=1.22.4",
     "matplotlib",
     "pandas",
     "pygame",
@@ -49,7 +49,7 @@ install_requires = [
     "pillow",
     "pytest",
     "opencv-python-headless",
-    "Cython==0.29.6",
+    "Cython==0.29.30",
 ]
 
 if (not is_mac()) and (not is_win()):
